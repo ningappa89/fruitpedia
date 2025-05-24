@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 [build-system]
 requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
+=======
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+>>>>>>> 496911e (Initial commit)

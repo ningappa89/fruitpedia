@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="fruitpedia",
-    version="0.1.0",
+    version="0.1.1",
     author="Ningappa Kanavi",
     description="A Python library with information on 100 fruits and CLI support",
     long_description=open("README.md").read(),
