@@ -1,0 +1,8 @@
+# Ignore Python cache and build folders
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.tar.gz
+*.whl
