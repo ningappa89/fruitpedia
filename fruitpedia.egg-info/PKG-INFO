@@ -1,18 +1,22 @@
-Metadata-Version: 2.2
+Metadata-Version: 2.4
 Name: fruitpedia
-Version: 0.1.1
-Summary: A Python library with information on 100 fruits and CLI support
+Version: 0.1.2
+Summary: A CLI library for fruit data lookup and filtering
 Home-page: https://github.com/yourusername/fruitpedia
 Author: Ningappa Kanavi
-Classifier: Programming Language :: Python :: 3
-Classifier: License :: OSI Approved :: MIT License
-Classifier: Operating System :: OS Independent
-Requires-Python: >=3.7
+Author-email: Ningappa Kanavi <ningskanavi89@gmail.com>
+License: MIT
+Requires-Python: >=3.8
 Description-Content-Type: text/markdown
 License-File: LICENSE.txt
+Requires-Dist: click>=8.0
+Requires-Dist: rich
+Requires-Dist: pandas
+Requires-Dist: rapidfuzz
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: black; extra == "dev"
+Requires-Dist: ruff; extra == "dev"
 Dynamic: author
-Dynamic: classifier
-Dynamic: description-content-type
 Dynamic: home-page
-Dynamic: requires-python
-Dynamic: summary
+Dynamic: license-file

@@ -10,6 +10,8 @@ fruitpedia.egg-info/PKG-INFO
 fruitpedia.egg-info/SOURCES.txt
 fruitpedia.egg-info/dependency_links.txt
 fruitpedia.egg-info/entry_points.txt
+fruitpedia.egg-info/requires.txt
 fruitpedia.egg-info/top_level.txt
+tests/test_cli.py
 tests/test_data.py
 tests/test_search.py
